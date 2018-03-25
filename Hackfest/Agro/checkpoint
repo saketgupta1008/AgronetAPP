@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Agro/AgroNet.ckpt"
+all_model_checkpoint_paths: "/Agro/AgroNet.ckpt"

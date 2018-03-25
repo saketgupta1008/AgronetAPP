@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <EditText
+        android:id="@+id/q10_name"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Phosphorus (Kg/acre)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/q11_mail"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/q10_name"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Potash (Kg/acre)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center"
+        android:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/q10_name"
+        android:src="@drawable/s" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/harvest" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_alignEnd="@+id/submit4"
+        android:text="Output :"
+        android:textSize="24sp"
+        android:visibility="invisible" />
+
+    <TextView
+        android:id="@+id/resulttt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="false"
+        android:layout_marginTop="410dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textSize="36sp" />
+
+    <Button
+        android:id="@+id/submit4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Submit" />
+
+</RelativeLayout>

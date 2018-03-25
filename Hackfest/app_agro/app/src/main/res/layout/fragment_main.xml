@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/button1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <EditText
+        android:id="@+id/q1_name"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_marginBottom="80dp"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Sowing Temp. (In C) "
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/q2_mail"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView6"
+        android:layout_alignStart="@+id/q3_password"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Average Rainfall"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/q3_password"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/q1_name"
+        android:layout_below="@+id/imageView6"
+        android:layout_marginTop="80dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Avg. Temp (In C)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignStart="@+id/imageView7"
+        android:layout_alignTop="@+id/q1_name"
+        android:src="@drawable/s" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/harvest" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/q3_password"
+        android:layout_marginStart="11dp"
+        android:src="@drawable/rain" />
+
+    <Button
+        android:id="@+id/submit1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Next" />
+</RelativeLayout>

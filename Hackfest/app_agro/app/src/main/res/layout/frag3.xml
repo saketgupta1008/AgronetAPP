@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:theme="@style/AppTheme.NoActionBar">
+
+    <EditText
+        android:id="@+id/q7_name"
+        style="@style/Widget.AppCompat.EditText"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView6"
+        android:layout_marginBottom="58dp"
+        android:layout_marginStart="33dp"
+        android:layout_toEndOf="@+id/imageView5"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="SSP (In Kg/acre)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/q8_mail"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/q7_name"
+        android:layout_below="@+id/q7_name"
+        android:layout_marginTop="29dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="MOP (In Kg/acre)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/q9_password"
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/q8_mail"
+        android:layout_below="@+id/q8_mail"
+        android:layout_marginTop="65dp"
+        android:ems="10"
+        android:fontFamily="serif-monospace"
+        android:hint="Zinc (Kg/acre)"
+        android:inputType="numberDecimal"
+        android:textAlignment="center" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/q7_name"
+        android:src="@drawable/s" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/harvest" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/q9_password"
+        android:src="@drawable/rain" />
+
+    <Button
+        android:id="@+id/submit3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Next" />
+</RelativeLayout>

@@ -1,4 +1,16 @@
 # AgronetAPP
+This Project was made by a team of five members namely
+
+[1]. Abhishek Rawat
+
+[2]. Saket Gupta
+
+[3]. Bhanu Pratap Sankla
+
+[4]. Akash Nirwan
+
+[5]. Vishal Sourav
+
 We have the following files in our github repository:-
 
 1.Generated .pb model for android and other files in folder Agro.

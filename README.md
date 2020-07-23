@@ -20,3 +20,7 @@ We have the following files in our github repository:-
 3.Source code of Android application in app_agro folder.
 
 4.Python code of the model is in the main branch only with name, 'smart.py' and export script for generation of .pb file in, 'export.py'.
+
+#Link for visulisation: 
+
+    https://www.youtube.com/watch?v=6uRbWR7D6-E
